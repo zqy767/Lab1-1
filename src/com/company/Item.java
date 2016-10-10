@@ -3,6 +3,7 @@ package com.company;
 public class Item implements Cloneable{
     String name;
     int power;
+    String GarbageB2;
     Item (String name,int power) {
         this.name = name;
         this.power = power;

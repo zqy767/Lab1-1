@@ -14,7 +14,7 @@ public class Main {
         Pattern simplify = Pattern.compile("^!simplify\\s(\\w+=\\d+\\s?)+");
         Pattern simplify_s = Pattern.compile("\\w+=\\d+");
         Pattern derivative = Pattern.compile("^!d/d\\s\\w+");
-
+  String GarbageB2;
         String exp = in.nextLine();
         Union u = new Union();
         while (!exp.equals("exit")) {
