@@ -14,7 +14,7 @@ public class Poly implements Cloneable{
 
     int prenum;
 
-
+   String Garbgeb1;
     // the Item is expression between *
 
 
