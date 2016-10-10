@@ -17,7 +17,7 @@ public class Main {
 
         String exp = in.nextLine();
         Union u = new Union();
-        while (!exp.equals("exit!")) {
+        while (!exp.equals("exit")) {
 
             try {
                 if (exp.charAt(0) != '!') {

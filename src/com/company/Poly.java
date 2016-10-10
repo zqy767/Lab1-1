@@ -146,8 +146,8 @@ public class Poly implements Cloneable{
         char ch = first_string(s);
         if (ch == '(') return s.substring(0,(find_right_braket(s)+1));
         else {
+	    int pos2 = s.indexOf('(');
             int pos1 = s.indexOf('^');
-            int pos2 = s.indexOf('(');
             if (pos1==-1 && pos2 == -1 ) return s;
             if (pos1 == -1) return s.substring(0,pos2);
             if (pos2 == -1) return s.substring(0,pos1);
