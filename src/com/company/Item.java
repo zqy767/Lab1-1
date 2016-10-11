@@ -8,6 +8,7 @@ public class Item implements Cloneable{
     String garbageC4;
 
     String GarbageB2;
+
     Item (String name,int power) {
         this.name = name;
         this.power = power;

@@ -22,6 +22,9 @@ public class Main {
         String exp = in.nextLine();
         Union u = new Union();
         while (!exp.equals("exit!")) {
+        String exp = in.nextLine();
+        Union u = new Union();
+        while (!exp.equals("exit")) {
 
             try {
                 if (exp.charAt(0) != '!') {
@@ -68,7 +71,8 @@ public class Main {
             }
            exp = in.nextLine();
         }
-
-
+	
+	
+	}
     }
 }
