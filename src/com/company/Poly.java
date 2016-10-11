@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 import java.util.function.ObjDoubleConsumer;
-
+//1
 /**
  * Created by forandroid on 16-9-21.
  * expression between +,witch means * contained
